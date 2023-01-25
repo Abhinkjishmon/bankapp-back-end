@@ -1,0 +1,40 @@
+         
+
+
+
+                                  Node.js - Back end for bank server
+                                  ----------------------------------
+
+                                  1. Create folder for server
+                                  2. Create package.js filr: npm init 
+                                  3. create entry point of server: index.js
+                                  4. Install express: npm i express
+                                  5. Import express inside index.js 
+                                  6. Create server app using express
+                                  7. set up port for server app
+                                  8. to resolve api call
+                                      - server-app.http-method(path,call back function)
+                                  9. Install cors (cross origin resource shareing): npm install cors
+                                      -Import cors inside index.js 
+                                      -Use cors, define the origin to share the data with server
+                                 10. parse json data 
+         
+                 
+                                   Integration of Node.js server and Mongo Db 
+                                   ------------------------------------------
+                                   1.Install mongoose: npm install mongoose
+                                   2.create a folder for services then create js file for define db connection, db.js
+                                        - Import mongoose in db.js
+                                        - Using mongoose define connection string 
+                                        - create model for the project 
+                                    
+                                    Authorization
+                                    -------------
+                                    1. Install Json web Token - npm install jsonwebtoken
+                                    2. Using jsonwebtoken
+                                            -generate token for successfull login : sign()
+                                            -verify token - verify()
+                                    3. Middleware
+                                         - 2 types 
+                                            - application specific middleware 
+                                            - router specific middleware
